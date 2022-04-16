@@ -1,0 +1,90 @@
+@import url('https://fonts.googleapis.com/css?family=Raleway');
+
+body{
+	padding: 0;
+	margin: 0;
+	background:#f4f4f4;
+}
+html,h1,h2,h3,h4,h5,h6,a{
+	font-family: "Raleway";
+}
+.navbar{
+	background:#5a9972;
+}
+.nav-link , .navbar-brand{
+	color: #f4f4f4;
+	cursor: pointer;
+}
+.nav-link{
+	margin-right: 1em !important;
+}
+.nav-link:hover{
+	background: #f4f4f4;
+	color: #070707;
+
+}
+.navbar-collapse{
+ justify-content: flex-end;
+}
+.navbar-toggler{
+  background:#fff !important;
+}
+#tombol{
+	background :#5a9972;
+}
+
+.about{
+	margin: 4em 0;
+	padding: 1em;
+	position: relative;
+}
+.about h1{
+	color:#5a9972;
+	margin: 2em;
+}
+.about img{
+	height: 300px;
+    width: 300px;
+    border-radius: 50%
+}
+.about span{
+	display: block;
+	color: #888;
+	position: absolute;
+	left: 120px;
+	margin-top: 10px;
+}
+.about .desc{
+	padding: 2em;
+	border-left:4px solid #94a15a;
+}
+.about .desc h3{
+	color: #10828C;
+}
+.about .desc p{
+	line-height:2;
+	color:#888;
+}
+#porto{
+	color:#5a9972;
+}
+
+.team{
+	margin: 4em 0;
+	position: relative;
+
+}
+.team h1{
+	color:#5a9972;
+	margin: 2em;
+		
+}
+.team img{
+	width: 90%;
+	height: 80%;
+	border-radius: 50%;
+}
+.team .item{
+	position: relative;
+	overflow: hidden;	
+}
